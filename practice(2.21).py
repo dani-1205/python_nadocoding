@@ -45,6 +45,3 @@ print(int(random() * 10))   # 0 이상 10 미만의 임의의 값 생성
 print(randrange(1, 46))     # randrange(a, b) -> a 이상 b 미만의 임의의 값 생성
 
 print(randint(1, 45))       # randint(a, b) -> a 이상 b 이하의 임의의 값 생성
-
-
-#
