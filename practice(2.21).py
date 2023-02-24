@@ -52,7 +52,6 @@ print(ceil(3.14))
 print(sqrt(16))         
 
 
-
 # [랜덤함수]
 from random import *
 # random() -> 0.0 이상 1.0 미만의 임의의 값 생성
