@@ -1,4 +1,4 @@
-# 문자열
+# [문자열]
 sentence = """
 오늘은 2월 23일이고,
 목요일입니다.
@@ -6,7 +6,8 @@ sentence = """
 print(sentence)
 
 
-# 슬라이싱
+
+# [슬라이싱]
 jumin = "001205-1234567"
 print("성별 : " + jumin[7])
 print("연 : " + jumin[0:2])     # 0번째부터 2번째 직전까지
@@ -17,13 +18,24 @@ print("뒤 7자리 : " + jumin[7:])
 print("뒤 7자리 (뒤에부터) : " + jumin[-7:])
 
 
-# 문자열 처리 함수
+
+# [문자열 처리 함수]
 python = "Python is Amazing"
-print(python.lower())       # lower() -> 모두 소문자로 변경
-print(python.upper())       # upper() -> 모두 대문자로 변경
-print(python[0].isupper())  # isupper() -> 대문자이면 True, 소문자이면 False
-print(len(python))          # len() -> 길이를 알려주는 함수
-print(python.replace("Python", "Java"))     # replace("원래 있던 것", "새로운 것") -> 원래 있던 것을 새로운 것으로 변경
+
+# lower() -> 모두 소문자로 변경
+print(python.lower()) 
+
+# upper() -> 모두 대문자로 변경
+print(python.upper())      
+
+# isupper() -> 대문자이면 True, 소문자이면 False
+print(python[0].isupper())
+
+# len() -> 길이를 알려주는 함수 
+print(len(python))        
+
+# replace("원래 있던 것", "새로운 것") -> 원래 있던 것을 새로운 것으로 변경
+print(python.replace("Python", "Java")) 
 
 index = python.index("n")
 print(index)
@@ -36,10 +48,12 @@ print(python.find("n"))
 print(python.find("Java"))      # find()에서 원하는 값이 없을 때는 -1을 반환함
 # print(python.index("Java"))     # index()에서 원하는 값이 없을 때는 오류를 내면서 프로그램을 종료시킴
 
-print(python.count("n"))        # count("n") -> n이 몇 개 있는지 세어주는 함수
+# count("n") -> n이 몇 개 있는지 세어주는 함수
+print(python.count("n"))    
 
 
-# 문자열 포맷
+
+# [문자열 포맷]
 print("a" + "b")
 print("a", "b")
 
